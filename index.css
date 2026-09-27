@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff6b6b, #c0392b);
+  font-family: "Segoe UI", "Malgun Gothic", system-ui, sans-serif;
+  color: #2d2d2d;
+}
+
+.timer-card {
+  width: 90%;
+  max-width: 360px;
+  padding: 40px 32px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #c0392b;
+  letter-spacing: 1px;
+}
+
+.time-display {
+  margin: 28px 0 32px;
+  font-size: 4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: #2d2d2d;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.05s ease, opacity 0.2s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.controls .btn {
+  flex: 1;
+}
+
+.btn-start {
+  background: #27ae60;
+  color: #fff;
+}
+
+.btn-stop {
+  background: #e67e22;
+  color: #fff;
+}
+
+.btn-reset {
+  background: #eee;
+  color: #333;
+}
+
+.btn-settings {
+  width: 100%;
+  background: transparent;
+  color: #c0392b;
+  border: 2px solid #c0392b;
+}

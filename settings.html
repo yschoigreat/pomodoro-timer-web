@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Setting</title>
+  <link rel="stylesheet" href="setting.css" />
+</head>
+<body>
+  <main class="setting-card">
+    <h3 class="setting-title">Setting</h3>
+
+    <label class="setting-field">
+      <span class="setting-label">타이머 시간 (분)</span>
+      <input type="number" id="timer-minutes" class="setting-input" min="1" max="60" value="25" />
+    </label>
+
+    <button type="button" class="setting-submit">설정 완료</button>
+  </main>
+
+  <script src="setting.js"></script>
+</body>
+</html>

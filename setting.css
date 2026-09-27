@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff6b6b, #c0392b);
+  font-family: "Segoe UI", "Malgun Gothic", system-ui, sans-serif;
+  color: #2d2d2d;
+}
+
+.setting-card {
+  width: 90%;
+  max-width: 360px;
+  padding: 40px 32px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.setting-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c0392b;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+
+.setting-field {
+  display: block;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.setting-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.setting-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.setting-input:focus {
+  outline: none;
+  border-color: #c0392b;
+}
+
+.setting-submit {
+  width: 100%;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #27ae60;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.05s ease, opacity 0.2s ease;
+}
+
+.setting-submit:hover {
+  opacity: 0.9;
+}
+
+.setting-submit:active {
+  transform: translateY(1px);
+}
